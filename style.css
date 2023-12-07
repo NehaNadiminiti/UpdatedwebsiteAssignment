@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+}
+
+.joke-section {
+    text-align: center;
+    color: white;
+    padding: 100px;
+    background-size: cover;
+}
+
+.joke-section div {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.video-section {
+    text-align: center;
+    padding: 50px;
+}
+
+.input-section {
+    text-align: center;
+    padding: 50px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
