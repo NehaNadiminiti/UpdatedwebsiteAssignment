@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Joke Website</title>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <!-- Contrast Ratio: 4.5:1 (white text on dark background) -->
+            <li><a href="#" style="color: #fff; background-color: #333;">Home</a></li>
+
+            <!-- Contrast Ratio: 4.5:1 (white text on dark background) -->
+            <li><a href="#" style="color: #fff; background-color: #333;">Videos</a></li>
+
+            <!-- Contrast Ratio: 4.5:1 (white text on dark background) -->
+            <li><a href="#" style="color: #fff; background-color: #333;">About</a></li>
+
+            <!-- Contrast Ratio: 4.5:1 (white text on dark background) -->
+            <li><a href="#" style="color: #fff; background-color: #333;">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to the Joke Website</h1>
+        <p>Laugh your heart out!</p>
+    </header>
+
+    <!-- Joke Section with Background Image -->
+    <section class="joke-section" style="background-image: url('your-image-url.jpg');">
+        <div>
+            <h2>Joke of the Day</h2>
+            <p id="joke-text">Why did the chicken cross the road?</p>
+            <button onclick="revealJoke()">Tell Me!</button>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <h2>Featured Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Input Section -->
+    <section class="input-section">
+        <h2>Submit Your Joke</h2>
+        <label for="userJoke">Type your joke:</label>
+        <input type="text" id="userJoke" name="userJoke" placeholder="Enter your joke...">
+        <button onclick="submitJoke()">Submit</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Joke Website</p>
+    </footer>
+
+    <!-- JavaScript for Joke Submission -->
+    <script src="script.js"></script>
+
+</body>
+</html>
